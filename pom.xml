@@ -49,6 +49,15 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>chat-app</finalName>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/davidpokol/chat</url>
+		</repository>
+	</distributionManagement>
 
 </project>
