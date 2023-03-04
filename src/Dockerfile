@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-alpine3.14
+FROM openjdk:17
 
 ADD ./chat-app.jar chat-app.jar
 
